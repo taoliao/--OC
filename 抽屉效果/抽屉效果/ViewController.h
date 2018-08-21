@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+/**/
+@property(nonatomic,strong,readonly)UIView *mainView;
+/**/
+@property(nonatomic,strong,readonly)UIView *leftView;
+/**/
+@property(nonatomic,strong,readonly)UIView *rightView;
+/**/
 
 @end
 

@@ -14,14 +14,6 @@
 
 @interface ViewController ()
 
-/**/
-@property(nonatomic,strong,readonly)UIView *mainView;
-/**/
-@property(nonatomic,strong,readonly)UIView *leftView;
-/**/
-@property(nonatomic,strong,readonly)UIView *rightView;
-/**/
-
 @end
 
 @implementation ViewController
